@@ -200,9 +200,10 @@ template {
     color:var(--nav-item-link-hover);
 }
 
-.nav .nav-link-hover {
+.nav .nav-link:hover {
         color:var(--color-primary);
     }
+
 *,
 *::before,
 *::after {
