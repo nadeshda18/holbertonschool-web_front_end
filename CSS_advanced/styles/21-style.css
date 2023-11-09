@@ -193,7 +193,7 @@ ul.row {
 
 [class^="col-"] {
     float: left;
-    padding:0.5em;
+    padding: 0 50%;
 }
 
 .col-1-3 {
