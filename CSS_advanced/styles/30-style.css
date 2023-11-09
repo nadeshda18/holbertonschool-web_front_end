@@ -422,7 +422,7 @@ a:active {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.card-work .card-inner {
+.card-work .card-title {
     text-align: center;
     margin: 0;
     opacity: 0;
@@ -430,10 +430,22 @@ a:active {
     position: relative;
 }
 
-.card-work .card-title {
+.card-title a {
     display: block;
     text-decoration: none;
-    padding: 45%;
+    padding-top: 45%;
+}
+
+.card-title::after a {
+    position: absolute;
+    position: 0, 0, 0, 0;
+    content: "";
+}
+
+.card-work a {
+    display: block;
+    text-decoration: none;
+    padding-top: 45%;
 }
 
 .card-work::after a {
@@ -442,7 +454,7 @@ a:active {
     content: "";
 }
 
-.card-work .card-title:hover {
+.card-work:hover .card-title {
     opacity: 1;
 }
 
