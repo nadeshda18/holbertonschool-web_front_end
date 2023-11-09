@@ -183,7 +183,7 @@ template {
     --button-hover-background:var(--color-primary);
 }
 
-.button-selector {
+.button {
     display:var(--button-display);
     padding:var(--button-padding);
     border:var(--button-border);
@@ -192,7 +192,7 @@ template {
     text-decoration:var(--button-text-decoration);
 }
 
-.button-selector:hover {
+.button:hover {
     color:var(--button-hover-color);
     text-decoration:var(--button-hover-text-decoration);
     background:var(--button-hover-background);
