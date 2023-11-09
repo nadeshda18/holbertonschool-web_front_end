@@ -196,12 +196,12 @@ template {
 
 .nav .nav-link {
     display: block;
-    padding:calc(var(--root-padding) / 2) 0 var(--root-padding) var(--root-padding);
+    padding:var(--root-padding) var(--root-padding) calc(var(--root-padding) / 2) calc(var(--root-padding) / 2);
     color:var(--nav-item-link-hover);
 }
 
 .nav .nav-link:hover {
-        color:var(--color-primary);
+        color:var(--nav-item-link-hover);
     }
 
 *,
