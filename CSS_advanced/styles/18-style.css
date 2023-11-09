@@ -168,8 +168,8 @@ template {
     --nav-item-font-family:var(--font-family-title);
     --nav-item-font-weight:var(--font-weight-bold);
     --nav-item-font-size:var(--font-size-medium);
-    --nav-item-letter-spacing: 0.04em;
-    --nat-item-display: inline-block;
+    --nav-item-letter-spacing:calc(var(--root-element) * 0.04);
+    --nat-item-display:var(--inline-block);
     --nav-item-margin: 0 0 calc(3 * var(--root-element)) 0;
     --nav-item-link-hover:var(--color-primary);
 }
@@ -196,7 +196,7 @@ template {
 
 .nav .nav-link {
     display: block;
-    padding:calc(var(--root-padding) / 2) var(--root-padding) calc(var(--root-padding) / 2) (var(--root-padding));
+    padding:calc(var(--root-element) / 2) var(--root-element) calc(var(--root-element) / 2) (var(--root-element));
     color:var(--nav-item-link-hover);
 }
 
