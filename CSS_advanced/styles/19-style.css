@@ -179,7 +179,7 @@ template {
     margin:var(--section-tagline-margin);
 }
 
-.row {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -320,11 +320,14 @@ a:active {
 
 .footer {
     padding:var(--footer-padding);
-    list-style-position: right;
+}
+
+ul.footer {
+    text-align: right;
 }
 
 .footer-copyright {
-    margin: none;
+    margin: 0;
     font-size:var(--font-size-small);
     color:var(--text-color);
 }
