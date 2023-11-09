@@ -184,6 +184,20 @@ template {
     --button-hover-background:var(--color-primary);
 }
 
+.section-hero {
+    background-size: 0 0;
+    width: 90rem;
+    height: auto;
+}
+
+.section-hero .section-title {
+    margin: 0 0 5rem 0;
+}
+
+.section-hero .section-inner {
+    padding: 10rem 40rem 2rem 0;
+}
+
 .card-testimonial {
     text-align: center;
 }
